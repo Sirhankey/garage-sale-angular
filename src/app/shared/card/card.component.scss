@@ -1,0 +1,38 @@
+.card {
+  padding: 24px;
+
+  &.primary {
+    background-color: #FEF7FF;
+    border: 1px solid #cac4d0;
+    border-radius: 2 rem;
+  }
+
+  &.secondary {
+    background-color: #f5f5f5;
+    border-radius: 2 rem;
+  }
+
+  &.success {
+    background-color: rgba(255, 215, 0, 0.4);
+    border: 1px solid gold;
+    border-radius: 2 rem;
+  }
+
+  &.danger {
+    background-color: rgba(221, 31, 18, 0.4);
+    border: 1px solid red;
+    border-radius: 2 rem;
+  }
+
+  &.warning {
+    background-color: rgba(221, 31, 18, 0.4);
+    border: 1px solid red;
+    border-radius: 2 rem;
+  }
+
+  &.info {
+    background-color: rgba(20, 153, 3, 0.4);
+    border: 1px solid green;
+    border-radius: 2 rem;
+  }
+}
